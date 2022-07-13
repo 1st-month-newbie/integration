@@ -57,6 +57,7 @@ _Welcome to "GitHub Actions: Continuous Integration"! :wave:_
 
 ![An illustration split in two. On the left: illustration of how GitHub Actions terms are encapsulated. At the highest level: workflows and event triggers. Inside of workflows: jobs and definition of the build environment. Inside jobs: steps. Inside steps: a call to an action. On the right: the sequence: workflows, job, step, action.](https://user-images.githubusercontent.com/6351798/88589835-f5ce0900-d016-11ea-8c8a-0e7d7907c713.png)
 
+- Hey you
 - **Workflow**: A workflow is a unit of automation from start to finish, including the definition of what triggers the automation, what environment or other aspects should be taken account during the automation, and what should happen as a result of the trigger.
 - **Job**: A job is a section of the workflow, and is made up of one or more steps. In this section of our workflow, the template defines the steps that make up the `build` job.
 - **Step**: A step represents one _effect_ of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
@@ -124,7 +125,6 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 
 ### :keyboard: Activity: Fix the test
 
-1. ABC
 1. Update the code in the `ci` branch to get the test to pass. You need to look something like this:
    ```markdown
    _underscore_
